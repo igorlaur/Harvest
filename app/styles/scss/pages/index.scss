@@ -1,0 +1,14 @@
+#header {
+    background: url("/Harvest/app/images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 1200px;
+
+    #navigation{
+        width: 100%;
+        min-height: 70px;
+        background: $black-1;
+    }
+}
