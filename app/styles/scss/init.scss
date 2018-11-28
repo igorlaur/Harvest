@@ -1,12 +1,14 @@
 //misc settings
 @import 'config/_settings';
 @import 'config/_mixins';
+@import 'config/variable';
 
 //frameworks
 
 //global things
 @import 'general/_reset';
 @import 'layout/_main';
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,100);
 
 //pages
-@import "/Harvest/app/styles/scss/pages/index.scss"
+@import 'pages/index';
